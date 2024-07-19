@@ -1,0 +1,203 @@
+/* peloton Nav Bar  */
+.navSection {
+  background-color: #010101;
+  color: white;
+  height: 80px;
+}
+.NavWrapper {
+  margin: 0 auto;
+  max-width: 1230px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.navLeft {
+  display: inline-flex;
+  align-items: center;
+}
+.navLeft img {
+  width: 110px;
+  height: 60px;
+  object-fit: cover;
+}
+.navLeft p {
+  font-size: 25px;
+  font-weight: 300;
+}
+.navRight {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+}
+.navRight input {
+  height: 35px;
+  width: 300px;
+}
+.navRight input:placeholder-shown {
+  padding-left: 35px;
+}
+.navRight a {
+  height: 35px;
+  width: 300px;
+  border: 2px solid #ffffff;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 2px;
+  font-size: 15px;
+}
+/* Get Assistance Section  */
+.assistanceSection {
+  background-color: #f5f7f9;
+  height: 1200px;
+}
+.assistanceWrapper {
+  margin: 0 auto;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.assistanceSection h1 {
+  font-size: 45px;
+  text-align: center;
+  padding-top: 25px;
+  font-weight: 350;
+  margin-bottom: 45px;
+}
+.assistanceCard1 img {
+  width: 450px;
+  margin-bottom: 20px;
+}
+.assistanceCard1 {
+  background-color: white;
+  height: 720px;
+  border-radius: 10px;
+}
+.writingUpTag h2 {
+  margin: 0 auto;
+  max-width: 250px;
+  margin-bottom: 20px;
+  font-weight: 350;
+}
+.writingUpTag {
+  margin-bottom: 20px;
+}
+.writingUpTag p {
+  margin: 0 auto;
+  max-width: 350px;
+  margin-bottom: 60px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #333333;
+}
+.butAnchor {
+  display: grid;
+  justify-content: center;
+}
+.butAnchor button {
+  width: 400px;
+  height: 50px;
+  background-color: #ca182a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.butAnchor a {
+  width: 400px;
+  height: 50px;
+  background-color: inherit;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 10px;
+  text-decoration: none;
+  font-weight: 350;
+}
+.butAnchor a:hover {
+  background-color: black;
+  color: white;
+}
+.writingUpTag2 h2 {
+  margin: 0 auto;
+  max-width: 300px;
+  margin-bottom: 20px;
+  font-weight: 350;
+}
+.writingUpTag2 {
+  margin-bottom: 20px;
+}
+.writingUpTag2 p {
+  margin: 0 auto;
+  max-width: 350px;
+  margin-bottom: 60px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #333333;
+}
+.butAnchor2 {
+  display: grid;
+  justify-content: center;
+}
+.butAnchor2 button {
+  width: 400px;
+  height: 50px;
+  background-color: #ca182a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.butAnchor2 a {
+  width: 400px;
+  height: 50px;
+  background-color: inherit;
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 350;
+}
+.corporateSection h1 {
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
+  margin-top: 35px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d4d4d4;
+}
+.corporateWrapper {
+  padding-top: 25px;
+  margin: 0 auto;
+  max-width: 750px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 20px;
+}
+.corporateWrapper h3 {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+.corporateWrapper a {
+  font-size: 14px;
+  color: #3c1a1d;
+}
+.coporateCard5 {
+  text-align: center;
+  padding-top: 20px;
+}
+.coporateCard5 h3 {
+  font-size: 15px;
+  font-weight: 450;
+  text-align: center;
+}
+.coporateCard5 a {
+  font-size: 14px;
+  color: #3c1a1d;
+}

@@ -1,0 +1,410 @@
+/* Hero Section  */
+.hero_section {
+  display: grid;
+  justify-content: center;
+}
+.Text1 {
+  font-size: 50px;
+}
+.Text2 {
+  padding-top: 5px;
+  font-size: 50px;
+  padding-left: 90px;
+}
+.hero_section a {
+  max-width: 500px;
+  margin: 0 auto;
+  text-decoration: none;
+  margin-top: 40px;
+  padding: 20px 20px;
+  margin-left: 230px;
+  justify-content: center;
+  background-color: #263aad;
+  color: white;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 120px;
+}
+/* image section  */
+.imageContainer {
+  display: grid;
+  justify-content: center;
+  position: relative;
+  max-width: 1200px;
+}
+.background1 img {
+  width: 950px;
+  border-radius: 5px;
+}
+.background2 img {
+  width: 450px;
+  position: absolute;
+  border-radius: 5px;
+  top: 290px;
+  left: 50px;
+}
+.background3 img {
+  width: 280px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+  right: 0;
+  position: absolute;
+  top: 190px;
+}
+/* Work Happens Section  */
+.happensSection {
+  margin-top: 90px;
+  height: auto;
+}
+.happensSection h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 60px;
+}
+.cardHeader img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.workHappensWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 490px;
+  gap: 20px;
+  position: relative;
+}
+.cardHeader {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center;  */
+}
+.cardHeader img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.customerImage1 {
+  border: 1px solid #263aad;
+}
+.customerImage2 {
+  border: 1px solid #959ea5;
+}
+
+.card1 {
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.card1 h5 {
+  margin-top: 45px;
+  margin-left: 55px;
+}
+.card1:nth-of-type(1) {
+  background-color: #171952;
+  color: #d7baf5;
+}
+.card1:nth-of-type(2) {
+  background-color: #283338;
+  color: #b9edbd;
+}
+.happensSection h5 {
+  padding-top: 15px;
+  font-weight: 300;
+  opacity: 0.7;
+}
+.card1Image {
+  width: 530px;
+  height: 320px;
+  object-fit: cover;
+  border-top-right-radius: 15%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.card2Image {
+  width: 530px;
+  height: 320px;
+  object-fit: cover;
+  border-top-left-radius: 15%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+/* The Numbers Section  */
+.numbersSection {
+  padding-top: 85px;
+  background-color: #faf8f7;
+  width: 100%;
+  padding-bottom: 100px;
+}
+.numbersSection h5 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 70px;
+  letter-spacing: 0.1em;
+}
+.numbersWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.numbersTop {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.numbersSection img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #ede8e6;
+  margin-left: 5px;
+}
+.numbersWrapper h2 {
+  font-size: 60px;
+  font-weight: 200;
+}
+.numberCard {
+  border-left: 2px solid #ede8e6;
+  width: 290px;
+  padding-left: 20px;
+  height: 180px;
+}
+.numberCard p {
+  font-size: 15px;
+  color: black;
+  opacity: 0.7;
+}
+.numberCard span {
+  font-size: 35px;
+  font-weight: 200;
+}
+/* Brianne Henderlong Section  */
+.brianneSection {
+  width: 100%;
+  margin-top: 140px;
+  background-color: #f9f7f8;
+  padding-top: 40px;
+  padding-bottom: 130px;
+  border-top-right-radius: 30%;
+}
+.brianne_wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 5px;
+}
+.threadless {
+  width: 360px;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.brianneRight {
+  margin-top: 25px;
+}
+.brianne_wrapper p {
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+.brianneBottom {
+  display: flex;
+  gap: 15px;
+}
+.brianneImage {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.brianne_wrapper h4 {
+  font-size: 14px;
+}
+.brianne_wrapper h5 {
+  font-size: 11px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.7;
+  letter-spacing: 0.2em;
+}
+
+/* Happy to help section  */
+.happyContainer {
+  width: 100%;
+  background-color: #f9f7f8;
+}
+.happyContainer h1 {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.happyWrapper1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 45px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.happyCard1 {
+  width: 775px;
+  height: 590px;
+  position: relative;
+  border-radius: 10px;
+}
+.happyCard1 h3 {
+  padding-top: 35px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+.happyCard1 img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.happyCard1 p {
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+.happyTop1 {
+  display: flex;
+  justify-content: space-between;
+}
+.happyTop1 p {
+  width: 500px;
+  margin-bottom: 35px;
+  font-size: 14px;
+  color: #475867;
+  font-weight: 400;
+}
+.happyTop1 a {
+  text-decoration: none;
+  padding: 10px 15px;
+  height: 45px;
+  border-radius: 4px;
+  background-color: #263aad;
+  color: white;
+  margin-right: 25px;
+}
+.happytopper {
+  height: 100%;
+  background-color: #f5f2f0;
+}
+.happyCard2 {
+  width: 400px;
+  height: 590px;
+  position: relative;
+  border-radius: 10px;
+}
+.happyCard2 img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+}
+.happyCard2 h3 {
+  padding-top: 35px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+.happyTop2 p {
+  width: 350px;
+  margin-bottom: 45px;
+  margin-left: 25px;
+  font-size: 14px;
+  color: #475867;
+  font-weight: 400;
+}
+.happyTop2 {
+  height: 100%;
+  background-color: #f5f2f0;
+}
+
+.happyWrapper2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 25px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 20px;
+}
+
+.happyWrapper2 img {
+  width: 200px;
+}
+.happyCard3 {
+  height: 350px;
+  position: relative;
+}
+.happyCard3 h3 {
+  padding-top: 35px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+.happyTop3 p {
+  margin-bottom: 45px;
+  margin-left: 25px;
+  font-size: 14px;
+  color: #475867;
+  font-weight: 400;
+}
+.happyCard3 img {
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+}
+.happyTop3 {
+  height: 100%;
+  background-color: #f5f2f0;
+}
+.happyCard4 {
+  height: 350px;
+  position: relative;
+}
+.happyCard4 h3 {
+  padding-top: 35px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+.happyTop4 p {
+  margin-bottom: 45px;
+  margin-left: 25px;
+  font-size: 14px;
+  color: #475867;
+  font-weight: 400;
+}
+.happyCard4 img {
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+}
+.happyTop4 {
+  height: 100%;
+  background-color: #f5f2f0;
+}
+
+/* businesses delight their customers  */
+.delightSection {
+  margin-top: 90px;
+}
+.delightSection p {
+  letter-spacing: 0.2em;
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.delightImage {
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,347 @@
+/* Nav2 Section  */
+.nav2_container {
+  width: 100%;
+  padding: 15px;
+  background-color: #f2f9fc;
+}
+.nav2_wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+.Nav2_content a {
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 13px;
+  color: #687884;
+}
+.nav2_wrapper img {
+  width: 25px;
+}
+/* The Help Scout Blog Section  */
+.BlogHero_container {
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-top: 50px;
+}
+
+.blogHero_writeup {
+  width: 650px;
+}
+.BlogHero_container h1 {
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.BlogHero_container p {
+  color: #4c5c68;
+  margin-bottom: 40px;
+}
+.blogHero_anchor {
+  display: flex;
+  justify-content: center;
+}
+.blogHero_anchor a {
+  padding: 15px 75px;
+  text-decoration: none;
+  background-color: #f2f9fc;
+  margin-right: 20px;
+  color: #314351;
+  border-radius: 5px;
+  font-weight: 450;
+  font-size: 15px;
+}
+.blogHero_anchor a:hover {
+  color: #2f42b0;
+}
+
+/* Most Recent Post Section */
+.mostRecent_container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 50px;
+  margin-bottom: 70px;
+}
+.mostRecent_Title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(241, 243, 245, 9);
+}
+.mostRecent_Title h2 {
+  font-size: 35px;
+  font-weight: 800;
+}
+.mostRecent_Title a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: #263aad;
+}
+.mostRecent_Title img {
+  width: 10px;
+  object-fit: cover;
+}
+.mostRecentGrid_wrapper {
+  margin-top: 25px;
+  display: flex;
+  grid-template-columns: 2fr;
+  gap: 30px;
+}
+.mostRecentCard_1 {
+  width: 800px;
+}
+.mostRecentCard_1 img {
+  width: 800px;
+  border-radius: 10px;
+}
+.mostRecentCard_1 span {
+  font-size: 12px;
+  color: #8a95a0;
+  font-weight: 350;
+}
+.mostRecentCard_1 h3 {
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+.mostRecentCard_1 p {
+  color: #425362;
+}
+.mostRecent_row {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 8px;
+}
+.mostRecentCard_2 {
+  width: 350px;
+}
+.mostRecentCard_2 img {
+  width: 350px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.mostRecent_row h5 {
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: #8a95a0;
+  font-weight: 350;
+}
+
+/* Our Best Content Section  */
+.bestContent_section {
+  height: 450px;
+  background-color: #f2f9fc;
+  padding-top: 70px;
+}
+.bestContent_Wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.bestContent_left {
+  width: 460px;
+}
+.bestContent_left h1 {
+  font-size: 30px;
+  width: 320px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.bestContent_left p {
+  font-size: 15px;
+  border: 1px soild #5b6c79;
+}
+
+.bestContent_input input {
+  width: 20px;
+  height: 20px;
+  border-color: #abb9c7;
+}
+.bestContent_checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.bestContent_checkbox h3 {
+  font-size: 20px;
+}
+.bestContent_rightWrapper {
+  width: 590px;
+}
+.bestContent_rightWrapper p {
+  padding-left: 28px;
+  font-size: 13px;
+  color: #5b6c79;
+  margin-top: 2px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+.bestContent_subscribe input {
+  width: 600px;
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid #abb9c7;
+}
+.bestContent_subscribe input:placeholder-shown {
+  padding-left: 20px;
+}
+.bestContent_subscribe button {
+  width: 600px;
+  height: 55px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 15px;
+  background-color: #263aad;
+  color: white;
+  font-size: 19px;
+  font-weight: 750;
+}
+.bestContent_subscribe h6 {
+  margin-top: 15px;
+  color: #6a7985;
+  font-weight: 600;
+}
+/* Discover the Latest Section  */
+.discoverLatest_section {
+  padding-top: 70px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.discoverLatest_section h1 {
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.discoverSection_Title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(241, 243, 245, 9);
+}
+.discoverSection_Title h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+.discoverSection_Title a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: #263aad;
+}
+.discoverSection_Title img {
+  width: 20px;
+  object-fit: cover;
+}
+.discoverSection_wrapper {
+  gap: 25px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 70px;
+}
+.discoverSection_wrapper img {
+  width: 380px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.rightDiscover {
+  display: inline-flex;
+  justify-content: center;
+  gap: 10px;
+}
+.discoverSection_wrapper p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #556575;
+  margin-bottom: 10px;
+}
+.discoverSection_wrapper h3 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.discoverSection_wrapper button {
+  width: 375px;
+  height: 46px;
+  background-color: #6243e6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+/* Support Toolkit Section  */
+.toolKit_wrapper {
+  text-decoration: none;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: #f9f2ff;
+  border-radius: 5px;
+  height: 300px;
+  padding-left: 50px;
+}
+/* .toolKit_wrapper a {
+  text-decoration: none;
+} */
+.toolKit_section {
+  text-decoration: none;
+}
+.toolKit_wrapper h1 {
+  padding-top: 75px;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+.toolKit_wrapper p {
+  margin-bottom: 30px;
+  color: #4b5b6a;
+}
+.toolKit_wrapper button {
+  width: 185px;
+  height: 55px;
+  border: none;
+  border-radius: 5px;
+  background-color: #263aad;
+  color: white;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.toolKit_wrapper a {
+  text-decoration: inherit;
+}
+/* Get started with Help Scout section  */
+.getStarted_section {
+  margin-top: 80px;
+  width: 100%;
+  background-color: #cae4ff;
+  height: 450px;
+  text-align: center;
+  padding-top: 100px;
+}
+.getStarted_section h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.getStarted_section p {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 550px;
+  color: #516474;
+  margin-bottom: 25px;
+}
+.getStarted_section button {
+  width: 200px;
+  height: 55px;
+  border: none;
+  border-radius: 5px;
+  background-color: #263aad;
+  color: white;
+  font-size: 17px;
+  font-weight: 800;
+}
